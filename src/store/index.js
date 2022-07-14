@@ -54,7 +54,6 @@ export default new Vuex.Store({
       var myHeaders = new Headers()
       myHeaders.append('method', 'post')
       myHeaders.append('path', '/upload')
-      myHeaders.append('Access-Control-Allow-Origin', '*')
       myHeaders.append('Accept', 'application/json, text/plain, */*')
       myHeaders.append('Content-Disposition', 'form-data; name="image"; filename="https://digital.blb-karlsruhe.de/i3f/v21/6295250/full/304/0/default.jpg"')
 
